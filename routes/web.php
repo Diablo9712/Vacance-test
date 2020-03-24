@@ -18,6 +18,15 @@ Route::post('ville','VilleController@store');
 Route::get('ville/{id}/edit','VilleController@edit');
 Route::put('ville/{id}','VilleController@update');
 Route::post('ville/{id}','VilleController@destroy');
+
+Route::get('saison','SaisonController@index');
+Route::get('saison/create','SaisonController@create');
+Route::post('saison','SaisonController@store');
+Route::get('saison/{id}/edit','SaisonController@edit');
+Route::put('saison/{id}','SaisonController@update');
+Route::post('saison/{id}','SaisonController@destroy');
+
+
 Auth::routes();
 
 Route::middleware(['auth'])->group(function () {
