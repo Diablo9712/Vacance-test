@@ -24,6 +24,6 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
-        "pubnub": "^4.27.3"
+        "pubnub": "^4.37.0"
     }
 }
